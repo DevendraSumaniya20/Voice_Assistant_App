@@ -11,12 +11,11 @@ export default function WelcomeScreen() {
 
   return (
     <SafeAreaView className="flex-1 flex justify-around bg-white">
-      {/* title */}
       <View className="space-y-2">
         <Text
           style={{fontSize: wp(10)}}
           className="text-center font-bold text-gray-700">
-          TuLLU
+          TuLLu.AI
         </Text>
         <Text
           style={{fontSize: wp(4)}}
@@ -25,7 +24,6 @@ export default function WelcomeScreen() {
         </Text>
       </View>
 
-      {/* assistant image */}
       <View className="flex-row justify-center">
         <Image
           source={require('../../assets/images/welcome.png')}
@@ -33,7 +31,6 @@ export default function WelcomeScreen() {
         />
       </View>
 
-      {/* start button */}
       <TouchableOpacity
         onPress={() => navigation.navigate('Home')}
         className="bg-emerald-600 mx-5 p-4 rounded-2xl">

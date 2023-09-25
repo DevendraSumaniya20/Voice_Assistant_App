@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		4452F224EF81B79888A6F5AC /* libPods-Voice_Assistant_App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE75C614B979FA880F582DF /* libPods-Voice_Assistant_App.a */; };
+		59482B02DE96E918C646C9C6 /* libPods-Voice_Assistant_App-Voice_Assistant_AppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87017CD0F4E20CC50C1F48B0 /* libPods-Voice_Assistant_App-Voice_Assistant_AppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C53335541C0A50C65E2D54B0 /* libPods-Voice_Assistant_App-Voice_Assistant_AppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC9AF29B2E38921F9DFD913 /* libPods-Voice_Assistant_App-Voice_Assistant_AppTests.a */; };
+		BE8C62B3E0F3E2DDE4AE5C33 /* libPods-Voice_Assistant_App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8033608E037C18AF1B7A51FF /* libPods-Voice_Assistant_App.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,19 +30,19 @@
 		00E356EE1AD99517003FC87E /* Voice_Assistant_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Voice_Assistant_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* Voice_Assistant_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Voice_Assistant_AppTests.m; sourceTree = "<group>"; };
-		0B5513227C0E89D063851204 /* Pods-Voice_Assistant_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voice_Assistant_App.debug.xcconfig"; path = "Target Support Files/Pods-Voice_Assistant_App/Pods-Voice_Assistant_App.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Voice_Assistant_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voice_Assistant_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Voice_Assistant_App/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Voice_Assistant_App/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Voice_Assistant_App/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Voice_Assistant_App/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Voice_Assistant_App/main.m; sourceTree = "<group>"; };
-		6AC9AF29B2E38921F9DFD913 /* libPods-Voice_Assistant_App-Voice_Assistant_AppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Voice_Assistant_App-Voice_Assistant_AppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		415C82FF8EBA1E5E1C74C3C0 /* Pods-Voice_Assistant_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voice_Assistant_App.debug.xcconfig"; path = "Target Support Files/Pods-Voice_Assistant_App/Pods-Voice_Assistant_App.debug.xcconfig"; sourceTree = "<group>"; };
+		59430A35DCBE5CA1ADA85E0E /* Pods-Voice_Assistant_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voice_Assistant_App.release.xcconfig"; path = "Target Support Files/Pods-Voice_Assistant_App/Pods-Voice_Assistant_App.release.xcconfig"; sourceTree = "<group>"; };
+		8033608E037C18AF1B7A51FF /* libPods-Voice_Assistant_App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Voice_Assistant_App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Voice_Assistant_App/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		91AA1302489791C26F681E20 /* Pods-Voice_Assistant_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voice_Assistant_App.release.xcconfig"; path = "Target Support Files/Pods-Voice_Assistant_App/Pods-Voice_Assistant_App.release.xcconfig"; sourceTree = "<group>"; };
-		9FE75C614B979FA880F582DF /* libPods-Voice_Assistant_App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Voice_Assistant_App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A56C4F174256BAC1C794ACC8 /* Pods-Voice_Assistant_App-Voice_Assistant_AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voice_Assistant_App-Voice_Assistant_AppTests.release.xcconfig"; path = "Target Support Files/Pods-Voice_Assistant_App-Voice_Assistant_AppTests/Pods-Voice_Assistant_App-Voice_Assistant_AppTests.release.xcconfig"; sourceTree = "<group>"; };
-		DAB710CA6525988DE4B055DB /* Pods-Voice_Assistant_App-Voice_Assistant_AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voice_Assistant_App-Voice_Assistant_AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Voice_Assistant_App-Voice_Assistant_AppTests/Pods-Voice_Assistant_App-Voice_Assistant_AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		87017CD0F4E20CC50C1F48B0 /* libPods-Voice_Assistant_App-Voice_Assistant_AppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Voice_Assistant_App-Voice_Assistant_AppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9963D0C748A4B44226448471 /* Pods-Voice_Assistant_App-Voice_Assistant_AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voice_Assistant_App-Voice_Assistant_AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Voice_Assistant_App-Voice_Assistant_AppTests/Pods-Voice_Assistant_App-Voice_Assistant_AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5430883C778A2E661DC9AA5 /* Pods-Voice_Assistant_App-Voice_Assistant_AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voice_Assistant_App-Voice_Assistant_AppTests.release.xcconfig"; path = "Target Support Files/Pods-Voice_Assistant_App-Voice_Assistant_AppTests/Pods-Voice_Assistant_App-Voice_Assistant_AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C53335541C0A50C65E2D54B0 /* libPods-Voice_Assistant_App-Voice_Assistant_AppTests.a in Frameworks */,
+				59482B02DE96E918C646C9C6 /* libPods-Voice_Assistant_App-Voice_Assistant_AppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4452F224EF81B79888A6F5AC /* libPods-Voice_Assistant_App.a in Frameworks */,
+				BE8C62B3E0F3E2DDE4AE5C33 /* libPods-Voice_Assistant_App.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				9FE75C614B979FA880F582DF /* libPods-Voice_Assistant_App.a */,
-				6AC9AF29B2E38921F9DFD913 /* libPods-Voice_Assistant_App-Voice_Assistant_AppTests.a */,
+				8033608E037C18AF1B7A51FF /* libPods-Voice_Assistant_App.a */,
+				87017CD0F4E20CC50C1F48B0 /* libPods-Voice_Assistant_App-Voice_Assistant_AppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0B5513227C0E89D063851204 /* Pods-Voice_Assistant_App.debug.xcconfig */,
-				91AA1302489791C26F681E20 /* Pods-Voice_Assistant_App.release.xcconfig */,
-				DAB710CA6525988DE4B055DB /* Pods-Voice_Assistant_App-Voice_Assistant_AppTests.debug.xcconfig */,
-				A56C4F174256BAC1C794ACC8 /* Pods-Voice_Assistant_App-Voice_Assistant_AppTests.release.xcconfig */,
+				415C82FF8EBA1E5E1C74C3C0 /* Pods-Voice_Assistant_App.debug.xcconfig */,
+				59430A35DCBE5CA1ADA85E0E /* Pods-Voice_Assistant_App.release.xcconfig */,
+				9963D0C748A4B44226448471 /* Pods-Voice_Assistant_App-Voice_Assistant_AppTests.debug.xcconfig */,
+				E5430883C778A2E661DC9AA5 /* Pods-Voice_Assistant_App-Voice_Assistant_AppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Voice_Assistant_AppTests" */;
 			buildPhases = (
-				CB88D425AE1DDF7470094347 /* [CP] Check Pods Manifest.lock */,
+				84DA35D4411954545DEFABFB /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				3B1AEE78A9C8F709591C5F03 /* [CP] Embed Pods Frameworks */,
-				42B924452C515289B25F6ED1 /* [CP] Copy Pods Resources */,
+				08B84BB5B140F6E02023BAD6 /* [CP] Embed Pods Frameworks */,
+				58B75743FC0ECD2426A6ED98 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +176,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Voice_Assistant_App" */;
 			buildPhases = (
-				A9481CCF55AB5188A3D669FA /* [CP] Check Pods Manifest.lock */,
+				733C87AF9A102F5BF4201246 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				71CF6C76935C720255E68166 /* [CP] Embed Pods Frameworks */,
-				D10444C0B02A893E9E7C96DF /* [CP] Copy Pods Resources */,
+				F06A5BA649E93ECC0CD7DDB0 /* [CP] Embed Pods Frameworks */,
+				0B94B5F6B8017A7BFDB54C4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,7 +266,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		3B1AEE78A9C8F709591C5F03 /* [CP] Embed Pods Frameworks */ = {
+		08B84BB5B140F6E02023BAD6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -283,7 +283,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Voice_Assistant_App-Voice_Assistant_AppTests/Pods-Voice_Assistant_App-Voice_Assistant_AppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		42B924452C515289B25F6ED1 /* [CP] Copy Pods Resources */ = {
+		0B94B5F6B8017A7BFDB54C4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Voice_Assistant_App/Pods-Voice_Assistant_App-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Voice_Assistant_App/Pods-Voice_Assistant_App-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Voice_Assistant_App/Pods-Voice_Assistant_App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58B75743FC0ECD2426A6ED98 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -300,24 +317,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Voice_Assistant_App-Voice_Assistant_AppTests/Pods-Voice_Assistant_App-Voice_Assistant_AppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		71CF6C76935C720255E68166 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Voice_Assistant_App/Pods-Voice_Assistant_App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Voice_Assistant_App/Pods-Voice_Assistant_App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Voice_Assistant_App/Pods-Voice_Assistant_App-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A9481CCF55AB5188A3D669FA /* [CP] Check Pods Manifest.lock */ = {
+		733C87AF9A102F5BF4201246 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -339,7 +339,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CB88D425AE1DDF7470094347 /* [CP] Check Pods Manifest.lock */ = {
+		84DA35D4411954545DEFABFB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,21 +361,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D10444C0B02A893E9E7C96DF /* [CP] Copy Pods Resources */ = {
+		F06A5BA649E93ECC0CD7DDB0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Voice_Assistant_App/Pods-Voice_Assistant_App-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Voice_Assistant_App/Pods-Voice_Assistant_App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Voice_Assistant_App/Pods-Voice_Assistant_App-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Voice_Assistant_App/Pods-Voice_Assistant_App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Voice_Assistant_App/Pods-Voice_Assistant_App-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Voice_Assistant_App/Pods-Voice_Assistant_App-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -430,7 +430,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAB710CA6525988DE4B055DB /* Pods-Voice_Assistant_App-Voice_Assistant_AppTests.debug.xcconfig */;
+			baseConfigurationReference = 9963D0C748A4B44226448471 /* Pods-Voice_Assistant_App-Voice_Assistant_AppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -457,7 +457,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A56C4F174256BAC1C794ACC8 /* Pods-Voice_Assistant_App-Voice_Assistant_AppTests.release.xcconfig */;
+			baseConfigurationReference = E5430883C778A2E661DC9AA5 /* Pods-Voice_Assistant_App-Voice_Assistant_AppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -481,7 +481,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B5513227C0E89D063851204 /* Pods-Voice_Assistant_App.debug.xcconfig */;
+			baseConfigurationReference = 415C82FF8EBA1E5E1C74C3C0 /* Pods-Voice_Assistant_App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -508,7 +508,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91AA1302489791C26F681E20 /* Pods-Voice_Assistant_App.release.xcconfig */;
+			baseConfigurationReference = 59430A35DCBE5CA1ADA85E0E /* Pods-Voice_Assistant_App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
